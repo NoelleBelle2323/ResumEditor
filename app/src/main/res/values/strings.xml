@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="button">Button</string>
+    <string name="create_your_resume">Create Your Resume</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="name">Name</string>
+    <string name="objective_statement">Objective Statement</string>
+    <string name="enter_your_objective_statement">Enter your objective statement</string>
+    <string name="education">Education</string>
+    <string name="enter_your_educational_information">Enter your educational information</string>
+    <string name="enter_your_work_experience">Enter your work experience</string>
+    <string name="work_experience">Work Experience</string>
+    <string name="save">Save</string>
+</resources>
