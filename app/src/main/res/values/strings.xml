@@ -11,4 +11,15 @@
     <string name="enter_your_work_experience">Enter your work experience</string>
     <string name="work_experience">Work Experience</string>
     <string name="save">Save</string>
+    <string name="networking">Networking</string>
+    <string name="boost_your_resume">Boost Your Resume</string>
+    <string name="resume_tips">Resume Tips</string>
+    <string name="networking_options">Networking Options</string>
+    <string name="textview">TextView</string>
+    <string name="textView">network_blurb</string>
+    <string-array name = "networking_choices">
+        <item>Computer Science</item>
+        <item>Engineering</item>
+        <item>General STEM</item>
+    </string-array>
 </resources>
