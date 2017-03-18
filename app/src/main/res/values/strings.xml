@@ -15,9 +15,11 @@
     <string name="boost_your_resume">Boost Your Resume</string>
     <string name="resume_tips">Resume Tips</string>
     <string name="networking_options">Networking Options</string>
-    <string name="textview">TextView</string>
-    <string name="textView">network_blurb</string>
+    <string name="textView">TextView</string>
+    <string name="network_blurb">Utilize this section to explore groups that improve education and communication among similar professions.</string>
+    <string name="back">Back</string>
     <string-array name = "networking_choices">
+        <item>Select an Industry</item>
         <item>Computer Science</item>
         <item>Engineering</item>
         <item>General STEM</item>
