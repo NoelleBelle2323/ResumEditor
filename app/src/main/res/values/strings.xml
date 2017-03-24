@@ -18,10 +18,16 @@
     <string name="textView">TextView</string>
     <string name="network_blurb">Utilize this section to explore groups that improve education and communication among similar professions.</string>
     <string name="back">Back</string>
-    <string-array name = "networking_choices">
+    <string name="netwrk_chosen_options">netwrk chosen options</string>
+    <string name="resume_boost_explanation">Use the drop down menu to find relevant opportunities to supplement your resume.</string>
+    <string name="textview">TextView</string>
+    <string name="resumeditor">ResumEditor</string>
+    <string name="yellowrect">yellowRect</string>
+    <string-array name="networking_choices">
         <item>Select an Industry</item>
         <item>Computer Science</item>
         <item>Engineering</item>
         <item>General STEM</item>
     </string-array>
+
 </resources>

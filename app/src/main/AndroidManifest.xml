@@ -17,9 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ResumeScreen"/>
-        <activity android:name=".NetWorkingScreen"/>
+        <activity android:name=".ResumeScreen" />
+        <activity android:name=".NetWorkingScreen" />
+        <activity android:name=".BoostScreen" />
+        <activity android:name=".ResumeTips"></activity>
     </application>
 
 </manifest>
