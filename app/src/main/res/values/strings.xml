@@ -18,11 +18,36 @@
     <string name="textView">TextView</string>
     <string name="network_blurb">Utilize this section to explore groups that improve education and communication among similar professions.</string>
     <string name="back">Back</string>
-    <string name="netwrk_chosen_options">netwrk chosen options</string>
+    <string name="netwrk_chosen_options">network chosen options</string>
     <string name="resume_boost_explanation">Use the drop down menu to find relevant opportunities to supplement your resume.</string>
     <string name="textview">TextView</string>
     <string name="resumeditor">ResumEditor</string>
     <string name="yellowrect">yellowRect</string>
+    <string name="layout"><u>Layout</u></string>
+    <string name="layout_info">Keep it minimalistic. Don\'t make your future employer strain their eyes or work to figure out your intent.
+                                \n\nBe concise! Long paragraphs of beautiful prose won\'t look attractive on paper. Try to stick to one page of text, but don\'t trim the meat of your resume to remove 1/4 page of text.
+                                \n\nUse a professional font and clean spacing.</string>
+    <string name="obj_statement_underline"><u>Objective Statement</u></string>
+    <string name="obj_statement_info">Include one mostly if you are changing careers or are an entry level worker. Those trying to climb the
+                                        ladder internally are less likely to need one.
+                                        \n\nFocus on what you can give to a role, not what the company can do for you. Avoid \"seeking\" something for a \"personal goal\".
+                                        \n\nIf applying to many jobs, try to customize each version of your resume with a different objective to add specificity.
+                                        \n\nDon\'t give generalizations! Be very specific beyond wanting \"growth\" or \"a challenge\".
+                                        \n\nThe more concise, the better. Many applicants want to shy away from saying exactly what they want so as to seem more
+                                        adaptable, but only wind up seeming noncommittal. Own your goals!</string>
+    <string name="grammar"><u>Grammar</u></string>
+    <string name="grammar_info">Stay away from action verbs! Use the past tense to give a sense of permanence. It\'s all about what skills and experience you\'ll
+                                bring to your new job!
+                                \n\nDouble check everything! Have several people you know read through it.
+                                \n\nAlways check you reference, or your own, contact information! Be sure to call all the numbers on your resume to be sure they\'re up to date.</string>
+    <string name="content"><u>Content</u></string>
+    <string name="content_info">Be as specific as possible! Saying \"worked in a restaurant\" sounds a lot less helpful than \"Recruited, trained, hired, and supervised
+                                workers in a restaurant setting\".
+                                \n\nMake the employer feel the resume they receive is meant specifically for them. Do some research into what the company supports and try to
+                                tailor some points specifically to these things. For example, if your employer is big on environmental protection, place you protest attendance
+                                for animal preservation higher up!
+                                \n\nDon\'t leave off the little jobs you\'ve taken up. The soft skills you\'ve gained from these places are important to employers.</string>
+    <string name="test">This is a test</string>
     <string-array name="networking_choices">
         <item>Select an Industry</item>
         <item>Computer Science</item>

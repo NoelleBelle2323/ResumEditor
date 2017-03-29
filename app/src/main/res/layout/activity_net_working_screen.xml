@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:layout_below="@+id/textView5"
         android:layout_alignLeft="@+id/textView5"
         android:layout_alignStart="@+id/textView5"
@@ -81,7 +81,7 @@
         android:layout_alignRight="@+id/button3"
         android:layout_alignStart="@+id/spinner"
         android:layout_below="@+id/spinner"
-        android:layout_marginTop="29dp"
-        android:text="@string/netwrk_chosen_options" />
+        android:layout_marginTop="19dp"
+        android:text="" />
 
 </RelativeLayout>
