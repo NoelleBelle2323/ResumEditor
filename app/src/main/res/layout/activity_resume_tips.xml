@@ -2,152 +2,152 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context="com.example.noelle.mvp.ResumeTips"
-    tools:layout_marginTop="-300sp">
-
-
-    <TextView
-        android:id="@+id/textView15"
-        android:background="@drawable/section_border_y"
-        android:layout_width="match_parent"
-        android:layout_height="70sp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="19dp"
-        android:text="@string/resume_tips"
-        android:textSize="20sp"
-        android:textColor="#FFFFFF"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:id="@+id/button8"
-        android:background="@drawable/rounded_corner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/back"
-        android:layout_marginRight="17dp"
-        android:layout_marginEnd="17dp"
-        tools:ignore="RelativeOverlap"
-        android:layout_alignBaseline="@+id/textView9"
-        android:layout_alignBottom="@+id/textView9"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView9"
-        android:layout_alignStart="@+id/textView9"
-        android:layout_below="@+id/textView15"
-        android:layout_marginTop="15dp"
-        android:text="@string/layout"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView16"
-        android:layout_alignStart="@+id/textView16"
-        android:layout_below="@+id/textView16"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="12dp"
-        android:text="@string/layout_info"
-        android:layout_alignRight="@+id/button8"
-        android:layout_alignEnd="@+id/button8" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView16"
-        android:layout_alignStart="@+id/textView16"
-        android:layout_below="@+id/textView17"
-        android:layout_marginTop="29dp"
-        android:text="@string/obj_statement_underline"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView17"
-        android:layout_alignStart="@+id/textView17"
-        android:layout_below="@+id/textView18"
-        android:layout_marginTop="12dp"
-        android:text="@string/obj_statement_info"
-        android:layout_alignRight="@+id/button8"
-        android:layout_alignEnd="@+id/button8" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView18"
-        android:layout_alignStart="@+id/textView18"
-        android:layout_below="@+id/textView19"
-        android:layout_marginTop="29dp"
-        android:text="@string/grammar"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView19"
-        android:layout_alignStart="@+id/textView19"
-        android:layout_below="@+id/textView20"
-        android:layout_marginTop="12dp"
-        android:text="@string/grammar_info"
-        android:layout_alignRight="@+id/button8"
-        android:layout_alignEnd="@+id/button8"/>
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView20"
-        android:layout_alignStart="@+id/textView20"
-        android:layout_below="@+id/textView21"
-        android:layout_marginTop="29dp"
-        android:text="@string/content"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView21"
-        android:layout_alignStart="@+id/textView21"
-        android:layout_below="@+id/textView22"
-        android:layout_marginTop="12dp"
-        android:layout_marginBottom="19dp"
-        android:text="@string/content_info"
-        android:layout_alignRight="@+id/button8"
-        android:layout_alignEnd="@+id/button8"/>
+    android:fillViewport="true"
+    android:id="@+id/scrollView"
+    android:scrollbars="vertical">
+    
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:context="com.example.noelle.mvp.ResumeTips"
+            tools:layout_marginTop="-300sp">
 
 
+            <TextView
+                android:id="@+id/textView15"
+                android:background="@drawable/section_border_y"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="19dp"
+                android:text="@string/resume_tips"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/button8"
+                android:background="@mipmap/back"
+                android:layout_width="50sp"
+                android:layout_height="40sp"
+                tools:ignore="RelativeOverlap"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/textView23"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_alignStart="@+id/textView9"
+                android:layout_below="@+id/textView15"
+                android:layout_marginTop="15dp"
+                android:text="@string/layout"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView16"
+                android:layout_alignStart="@+id/textView16"
+                android:layout_below="@+id/textView16"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/layout_info"
+                android:textSize="20sp"
+                android:layout_alignRight="@+id/button8"
+                android:layout_alignEnd="@+id/button8" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView16"
+                android:layout_alignStart="@+id/textView16"
+                android:layout_below="@+id/textView17"
+                android:layout_marginTop="29dp"
+                android:text="@string/obj_statement_underline"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView17"
+                android:layout_alignStart="@+id/textView17"
+                android:layout_below="@+id/textView18"
+                android:layout_marginTop="12dp"
+                android:text="@string/obj_statement_info"
+                android:textSize="20sp"
+                android:layout_alignRight="@+id/button8"
+                android:layout_alignEnd="@+id/button8" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView18"
+                android:layout_alignStart="@+id/textView18"
+                android:layout_below="@+id/textView19"
+                android:layout_marginTop="29dp"
+                android:text="@string/grammar"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView19"
+                android:layout_alignStart="@+id/textView19"
+                android:layout_below="@+id/textView20"
+                android:layout_marginTop="12dp"
+                android:text="@string/grammar_info"
+                android:textSize="20sp"
+                android:layout_alignRight="@+id/button8"
+                android:layout_alignEnd="@+id/button8"/>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView20"
+                android:layout_alignStart="@+id/textView20"
+                android:layout_below="@+id/textView21"
+                android:layout_marginTop="29dp"
+                android:text="@string/content"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView21"
+                android:layout_alignStart="@+id/textView21"
+                android:layout_below="@+id/textView22"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/content_info"
+                android:textSize="20sp"
+                android:layout_alignRight="@+id/button8"
+                android:layout_alignEnd="@+id/button8"/>
 
 
+        </RelativeLayout>
 
-</RelativeLayout>
-
-    </ScrollView>
+</ScrollView>

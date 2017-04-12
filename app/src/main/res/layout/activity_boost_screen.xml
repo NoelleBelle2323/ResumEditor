@@ -48,17 +48,15 @@
 
     <Button
         android:id="@+id/button7"
-        android:background="@drawable/rounded_corner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="13dp"
+        android:background="@mipmap/back"
+        android:layout_width="50sp"
+        android:layout_height="40sp"
+        android:layout_marginEnd="15dp"
         android:layout_marginRight="13dp"
-        android:text="@string/back"
-        android:layout_alignBaseline="@+id/textView7"
-        android:layout_alignBottom="@+id/textView7"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        tools:ignore="RelativeOverlap" />
+        tools:ignore="RelativeOverlap"
+        android:layout_marginBottom="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 
     <Spinner
         android:id="@+id/spinner2"

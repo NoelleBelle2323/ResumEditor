@@ -48,6 +48,25 @@
                                 for animal preservation higher up!
                                 \n\nDon\'t leave off the little jobs you\'ve taken up. The soft skills you\'ve gained from these places are important to employers.</string>
     <string name="test">This is a test</string>
+    <string name="save_your_resume">Save Your Resume</string>
+    <string name="back_to_home_screen">Back to Home Screen</string>
+    <string name="done">Done</string>
+    <string name="saved">Saved!</string>
+    <string name="logo">logo</string>
+    <string name="next">Next</string>
+    <string name="enter_your_name">Enter your name:</string>
+    <string name="enter_address">Enter your address:</string>
+    <string name="enter_your_email">Enter your email:</string>
+    <string name="enter_your_phone_number">Enter your phone number:</string>
+    <string name="university">Enter which university you attended:</string>
+    <string name="graduation_year">Graduation year:</string>
+    <string name="university_location">Location of school (city, state):</string>
+    <string name="degree_earned">Degree earned:</string>
+    <string name="name_of_company">Name of company:</string>
+    <string name="position_held">Position held:</string>
+    <string name="description_of_responsibilities">Description of responsibilities:</string>
+    <string name="years_of_employment">Years of employment:</string>
+    <string name="previous">Previous</string>
     <string-array name="networking_choices">
         <item>Select an Industry</item>
         <item>Computer Science</item>

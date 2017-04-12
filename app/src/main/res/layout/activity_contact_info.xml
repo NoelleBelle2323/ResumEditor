@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/scrollView4">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.noelle.mvp.ContactInfo"
+        android:clickable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:background="@drawable/section_border_p"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            tools:layout_editor_absoluteX="-10dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_info"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:background="@mipmap/backstraight"
+            android:layout_width="60sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="14dp"
+            tools:ignore="RelativeOverlap"
+            android:layout_alignTop="@+id/button14"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/button14"
+            android:background="@mipmap/forth"
+            android:layout_width="60sp"
+            android:layout_height="50sp"
+            android:layout_marginRight="16dp"
+            tools:ignore="RelativeOverlap"
+            android:layout_marginEnd="19dp"
+            android:layout_alignBottom="@+id/textView14"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button11"
+            android:layout_alignStart="@+id/button11"
+            android:layout_below="@+id/textView14"
+            android:layout_marginTop="30dp"
+            android:text="@string/enter_your_name"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_below="@+id/textView31"
+            android:layout_alignLeft="@+id/textView31"
+            android:layout_alignStart="@+id/textView31"
+            android:layout_alignRight="@+id/button14"
+            android:layout_alignEnd="@+id/button14" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_alignStart="@+id/editText3"
+            android:layout_below="@+id/editText3"
+            android:layout_marginTop="30dp"
+            android:text="@string/enter_address"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView32"
+            android:layout_alignStart="@+id/textView32"
+            android:layout_below="@+id/textView32"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_alignRight="@+id/editText3"
+            android:layout_alignEnd="@+id/editText3" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="30dp"
+            android:text="@string/enter_your_email"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView33"
+            android:layout_alignStart="@+id/textView33"
+            android:layout_below="@+id/textView33"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_alignRight="@+id/editText7"
+            android:layout_alignEnd="@+id/editText7" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText8"
+            android:layout_alignStart="@+id/editText8"
+            android:layout_below="@+id/editText8"
+            android:layout_marginTop="30dp"
+            android:text="@string/enter_your_phone_number"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView34"
+            android:layout_alignStart="@+id/textView34"
+            android:layout_below="@+id/textView34"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_alignRight="@+id/editText8"
+            android:layout_alignEnd="@+id/editText8" />
+
+    </RelativeLayout>
+</ScrollView>

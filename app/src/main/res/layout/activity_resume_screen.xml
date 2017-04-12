@@ -19,7 +19,7 @@
         android:hint="@string/name"
         android:gravity="center_horizontal"
         android:ems="14"
-        android:textSize="14sp"
+        android:textSize="18sp"
         android:background="@null"
         android:textColor="#000000"
         android:textColorHint="#000000"
@@ -39,7 +39,7 @@
         android:textColor="#000000"
         android:textColorHint="#000000"
         android:ems="8"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:id="@+id/editText2"
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="14"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:maxLength="19"
         android:id="@+id/textView"
         android:textColor="#000000"
@@ -68,7 +68,7 @@
         android:textColor="#000000"
         android:textColorHint="#000000"
         android:ems="8"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:id="@+id/editText4"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
@@ -79,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:id="@+id/textView2"
         android:textColor="#000000"
         android:layout_below="@+id/editText4"
@@ -93,7 +93,7 @@
         android:inputType="textMultiLine"
         android:hint="@string/enter_your_educational_information"
         android:ems="8"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:background="@null"
         android:textColor="#000000"
         android:textColorHint="#000000"
@@ -107,12 +107,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:id="@+id/textView3"
         android:textColor="#000000"
-        android:layout_above="@+id/editText6"
+        android:layout_below="@+id/editText5"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -120,18 +121,17 @@
         android:inputType="textMultiLine"
         android:hint="@string/enter_your_work_experience"
         android:ems="8"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:background="@null"
         android:textColor="#000000"
         android:textColorHint="#000000"
         android:id="@+id/editText6"
-        android:layout_marginBottom="98dp"
-        android:layout_above="@+id/button2"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="false" />
 
     <Button
-        android:text="@string/save"
+        android:text="@string/done"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -141,5 +141,66 @@
         android:layout_marginEnd="13dp"
         android:layout_marginBottom="15dp"
         android:id="@+id/button2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        android:id="@+id/relLay"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:background="@drawable/section_border_gray"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <Button
+            android:id="@+id/button12"
+            android:background="@drawable/rounded_corner_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_your_resume"
+            android:layout_marginTop="186dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/button13"
+            android:layout_alignStart="@+id/button13"
+            android:layout_alignRight="@+id/button13"
+            android:layout_alignEnd="@+id/button13" />
+
+        <Button
+            android:id="@+id/button13"
+            android:background="@drawable/rounded_corner_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_to_home_screen"
+            android:layout_marginTop="38dp"
+            android:layout_below="@+id/button12"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button12"
+            android:layout_toEndOf="@+id/button12"
+            android:layout_toRightOf="@+id/button12"
+            android:text="@string/saved"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
+            android:visibility="invisible"/>
+
+
+    </RelativeLayout>
+
+
+
 
 </RelativeLayout>

@@ -3,7 +3,7 @@
     package="com.example.noelle.mvp">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STIORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainScreen">
+        <activity
+            android:name=".MainScreen"
+            android:configChanges="orientation|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +23,12 @@
         <activity android:name=".ResumeScreen" />
         <activity android:name=".NetWorkingScreen" />
         <activity android:name=".BoostScreen" />
-        <activity android:name=".ResumeTips"></activity>
+        <activity android:name=".ResumeTips" />
+        <activity android:name=".PopUpSaveScreen" />
+        <activity android:name=".ContactInfo" />
+        <activity android:name=".EducationScreen" />
+        <activity android:name=".WorkScreen" />
+        <activity android:name=".PreviewResume" />
     </application>
 
 </manifest>
