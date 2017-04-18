@@ -67,6 +67,14 @@
     <string name="description_of_responsibilities">Description of responsibilities:</string>
     <string name="years_of_employment">Years of employment:</string>
     <string name="previous">Previous</string>
+    <string name="Anita_link"><a href="https://anitaborg.org/">Link to site</a></string>
+    <string name="enter_obj">Enter your objective statement:</string>
+    <string name="email">Email</string>
+    <string name="home">Home</string>
+    <string name="resume1">Resume 1</string>
+    <string name="purchase_the_premium_package">Purchase the Premium Package</string>
+    <string name="resume_2">Resume 2</string>
+    <string name="resume_3">Resume 3</string>
     <string-array name="networking_choices">
         <item>Select an Industry</item>
         <item>Computer Science</item>

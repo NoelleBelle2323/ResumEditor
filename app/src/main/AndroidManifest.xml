@@ -4,13 +4,24 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STIORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.WomEngineers.ResumEditor.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
         <activity
             android:name=".MainScreen"
             android:configChanges="orientation|keyboardHidden">
@@ -29,6 +40,8 @@
         <activity android:name=".EducationScreen" />
         <activity android:name=".WorkScreen" />
         <activity android:name=".PreviewResume" />
+        <activity android:name=".ObjectiveStatementScreen" />
+        <activity android:name=".ManageResumesScreen" />
     </application>
 
 </manifest>

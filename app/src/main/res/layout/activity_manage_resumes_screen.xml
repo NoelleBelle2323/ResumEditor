@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.noelle.mvp.ManageResumesScreen">
+
+    <Button
+        android:id="@+id/button21"
+        android:background="@drawable/rounded_corner_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resume1"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/button23"
+        android:layout_alignStart="@+id/button23"
+        android:layout_alignEnd="@+id/button23" />
+
+    <Button
+        android:id="@+id/button22"
+        android:background="@drawable/rounded_corner_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/purchase_the_premium_package"
+        android:layout_marginBottom="89dp"
+        android:layout_above="@+id/button24"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button23"
+        android:background="@drawable/rounded_corner_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:text="@string/resume_2"
+        android:layout_above="@+id/button25"
+        android:layout_alignStart="@+id/button25"
+        android:layout_alignEnd="@+id/button25" />
+
+    <Button
+        android:id="@+id/button24"
+        android:background="@mipmap/back"
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="19dp"
+        tools:ignore="RelativeOverlap"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button22" />
+
+    <Button
+        android:id="@+id/button25"
+        android:background="@drawable/rounded_corner_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resume_3"
+        android:layout_above="@+id/button22"
+        android:layout_alignStart="@+id/button22"
+        android:layout_marginBottom="20dp"
+        android:layout_alignEnd="@+id/button22" />
+</RelativeLayout>

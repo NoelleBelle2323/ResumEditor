@@ -6,7 +6,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context="com.example.noelle.mvp.BoostScreen">
 
     <TextView
@@ -78,8 +78,16 @@
         android:layout_below="@+id/spinner2"
         android:layout_marginTop="17dp"
         android:text=""
+        android:textSize="18sp"
         android:layout_alignRight="@+id/textView8"
         android:layout_alignEnd="@+id/textView8" />
+
+    <WebView
+        android:id="@+id/webView2"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
 </ScrollView>

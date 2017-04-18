@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/scrollView7">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.noelle.mvp.ObjectiveStatementScreen">
+
+        <TextView
+            android:id="@+id/textView43"
+            android:background="@drawable/section_border_p"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="-5dp" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/objective_statement"
+            android:textSize="20sp"
+            tools:ignore="RelativeOverlap" />
+
+        <Button
+            android:id="@+id/button19"
+            android:background="@mipmap/forth"
+            android:layout_width="60sp"
+            android:layout_height="50sp"
+            tools:ignore="RelativeOverlap"
+            android:layout_alignBottom="@+id/textView43"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp" />
+
+        <Button
+            android:id="@+id/button20"
+            android:background="@mipmap/backstraight"
+            android:layout_width="60sp"
+            android:layout_height="50sp"
+            android:layout_marginStart="11dp"
+            android:layout_alignBottom="@id/button19" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button20"
+            android:layout_below="@+id/textView43"
+            android:layout_marginTop="28dp"
+            android:text="@string/enter_obj"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editText16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_below="@+id/textView45"
+            android:layout_alignStart="@+id/textView45"
+            android:layout_alignEnd="@+id/button19" />
+    </RelativeLayout>
+</ScrollView>
+

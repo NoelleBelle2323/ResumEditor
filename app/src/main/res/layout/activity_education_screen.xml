@@ -51,8 +51,8 @@
             android:layout_marginRight="13dp"
             tools:ignore="RelativeOverlap"
             android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="36dp" />
+            android:layout_toEndOf="@+id/textView35"
+            android:layout_marginStart="11dp" />
 
         <TextView
             android:id="@+id/textView35"

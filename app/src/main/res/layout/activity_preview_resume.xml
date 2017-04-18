@@ -35,6 +35,22 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/next"/>
+
+        <Button
+            android:id="@+id/email"
+            android:background="@drawable/rounded_corner_p"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/email"/>
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner_p"
+            android:text="@string/home" />
     </LinearLayout>
 
 </LinearLayout>
