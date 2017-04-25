@@ -10,7 +10,7 @@
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:context="com.example.noelle.mvp.ResumeTips"
+            tools:context="org.womengineers.resume.ResumeTips"
             tools:layout_marginTop="-300sp">
 
 

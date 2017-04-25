@@ -1,4 +1,4 @@
-package com.example.noelle.mvp;
+package org.womengineers.resume.mvp;
 
 import org.junit.Test;
 

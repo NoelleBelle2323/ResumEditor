@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.noelle.mvp">
+    package="org.womengineers.resume">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STIORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:largeHeap="true">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+    <!--android:theme="@style/AppTheme"-->
+
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.WomEngineers.ResumEditor.fileprovider"
@@ -22,6 +26,7 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+
         <activity
             android:name=".MainScreen"
             android:configChanges="orientation|keyboardHidden">
@@ -31,11 +36,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ResumeScreen" />
         <activity android:name=".NetWorkingScreen" />
         <activity android:name=".BoostScreen" />
         <activity android:name=".ResumeTips" />
-        <activity android:name=".PopUpSaveScreen" />
         <activity android:name=".ContactInfo" />
         <activity android:name=".EducationScreen" />
         <activity android:name=".WorkScreen" />

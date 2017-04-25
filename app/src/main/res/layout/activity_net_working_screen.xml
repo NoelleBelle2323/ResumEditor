@@ -10,7 +10,7 @@
         android:id="@+id/activity_net_working_screen"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.noelle.mvp.NetWorkingScreen">
+        tools:context="org.womengineers.resume.NetWorkingScreen">
 
         <TextView
             android:id="@+id/textView10"

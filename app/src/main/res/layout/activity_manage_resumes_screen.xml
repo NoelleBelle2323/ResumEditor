@@ -3,15 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.noelle.mvp.ManageResumesScreen">
+    tools:context="org.womengineers.resume.ManageResumesScreen">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:background="@drawable/section_border_p"
+        android:layout_width="wrap_content"
+        android:layout_height="75sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:text="@string/manage_your_resumes"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/button21"
-        android:background="@drawable/rounded_corner_p"
+        android:background="@drawable/rounded_corner_b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/resume1"
         android:layout_marginBottom="20dp"
+        android:layout_marginTop="39dp"
         android:layout_above="@+id/button23"
         android:layout_alignStart="@+id/button23"
         android:layout_alignEnd="@+id/button23" />
@@ -22,20 +43,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/purchase_the_premium_package"
-        android:layout_marginBottom="89dp"
+        android:layout_marginBottom="75dp"
         android:layout_above="@+id/button24"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/button23"
-        android:background="@drawable/rounded_corner_p"
+        android:background="@drawable/rounded_corner_g"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="21dp"
         android:text="@string/resume_2"
         android:layout_above="@+id/button25"
         android:layout_alignStart="@+id/button25"
-        android:layout_alignEnd="@+id/button25" />
+        android:layout_alignEnd="@+id/button25"
+        android:visibility="invisible"/>
 
     <Button
         android:id="@+id/button24"
@@ -49,12 +71,28 @@
 
     <Button
         android:id="@+id/button25"
-        android:background="@drawable/rounded_corner_p"
+        android:background="@drawable/rounded_corner_y"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/resume_3"
         android:layout_above="@+id/button22"
         android:layout_alignStart="@+id/button22"
         android:layout_marginBottom="20dp"
-        android:layout_alignEnd="@+id/button22" />
+        android:layout_alignEnd="@+id/button22"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:background="@drawable/section_border_g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prem_pkg_info"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_alignBottom="@+id/button25"
+        android:layout_alignEnd="@+id/button25"
+        android:layout_below="@+id/button21"
+        android:layout_alignStart="@+id/button23" />
+
+
 </RelativeLayout>

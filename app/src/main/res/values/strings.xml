@@ -75,11 +75,20 @@
     <string name="purchase_the_premium_package">Purchase the Premium Package</string>
     <string name="resume_2">Resume 2</string>
     <string name="resume_3">Resume 3</string>
+    <string name="choose_template">Pick a Template</string>
+    <string name="minimalist">Minimalist</string>
+    <string name="overachiever">Overachiever</string>
+    <string name="manage_your_resumes">Manage Your Resumes</string>
+    <string name="prem_pkg_info">Purchase the Premium Package for $2.99! The package comes with two additional resumes to edit, and a new template to choose from!</string>
     <string-array name="networking_choices">
         <item>Select an Industry</item>
         <item>Computer Science</item>
         <item>Engineering</item>
         <item>General STEM</item>
+    </string-array>
+    <string-array name="template_choices">
+        <item>Minimalist</item>
+        <item>Overachiever</item>
     </string-array>
 
 </resources>

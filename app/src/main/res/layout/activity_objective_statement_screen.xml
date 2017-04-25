@@ -10,7 +10,9 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context="com.example.noelle.mvp.ObjectiveStatementScreen">
+        tools:context="org.womengineers.resume.ObjectiveStatementScreen"
+        android:clickable="true"
+        android:focusableInTouchMode="true">
 
         <TextView
             android:id="@+id/textView43"
